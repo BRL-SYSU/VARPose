@@ -1,0 +1,10 @@
+log/
+checkpoint/
+3dhp_test/
+db.py
+common/__pycache__/*
+checkpoints
+checkpoint
+logs
+.vscode
+data

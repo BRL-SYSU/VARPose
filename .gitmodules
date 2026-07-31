@@ -1,0 +1,6 @@
+[submodule "third_parties/cpn"]
+	path = third_parties/cpn
+	url = https://github.com/GengDavid/pytorch-cpn.git
+[submodule "third_parties/smpliks"]
+	path = third_parties/smpliks
+	url = https://github.com/Z-Z-J/SMPL-IKS.git

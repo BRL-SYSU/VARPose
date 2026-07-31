@@ -1,0 +1,7 @@
+logs
+log
+checkpoint
+checkpoints
+.vscode
+data
+*.pyc

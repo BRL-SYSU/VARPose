@@ -1,0 +1,12 @@
+python main_3dhp.py \
+    -c=checkpoints/d3dp_varpose_cross_attention_3dhp\
+    -l=logs/d3dp_varpose_cross_attention_3dhp \
+    --dense_fuse_strategy=cross_attention \
+    --finetune=3dhp_best_epoch.bin \
+    -b=9720 \
+    -s=243 \
+    -f=243 \
+    -gpu=0,1,2,3,4,5,6,7 \
+    -sampling_timesteps=1 \
+    -num_proposals=1 \
+    -lr=1e-5
